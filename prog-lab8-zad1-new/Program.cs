@@ -2,7 +2,6 @@
 using System.Collections;
 using System.IO;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace prog_lab8_zad1_new
 {
