@@ -100,14 +100,17 @@ namespace prog_lab8_zad1_new
 
             listOfNumbers.Insert(7, 8); // 8 вариант
             int someNumb = rnd.Next(500, 1000);
+            Console.Write("\nelem " + someNumb);
             if (listOfNumbers.Contains(someNumb))
-                Console.WriteLine(listOfNumbers.BinarySearch(someNumb));
+                Console.WriteLine(" at index " + listOfNumbers.BinarySearch(someNumb));
+            else
+                Console.WriteLine(" not found.");
 
             int someIndex = rnd.Next(0, 1840);
             listOfNumbers.RemoveAt(someIndex);
             listOfNumbers.Clear();
 
-
+            
             //
         }
 
